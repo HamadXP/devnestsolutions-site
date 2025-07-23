@@ -1,47 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact DevNest Solutions for questions, support, or collaboration.">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Contact - DevNest</title>
-  </head>
-  <body class="bg-white text-gray-800 font-sans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - DevNest</title>
+  <meta name="description" content="Contact DevNest team directly via email.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- Header -->
-    <header class="fixed top-0 left-0 w-full bg-white shadow z-50">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" class="text-xl font-bold">DevNest</a>
-        <nav class="space-x-4">
-          <a href="/posts/tech/index.html" class="text-gray-600 hover:text-black">Tech</a>
-          <a href="/posts/showbiz/index.html" class="text-gray-600 hover:text-black">Showbiz</a>
-        </nav>
-      </div>
-    </header>
+  <div class="max-w-xl mx-auto py-16 px-6">
+    <h1 class="text-3xl font-bold mb-6">Contact Us</h1>
+    <p class="mb-6">We'd love to hear from you. Please fill out the form below.</p>
 
-    <!-- Spacer -->
-    <div class="h-20"></div>
+    <form action="https://formspree.io/f/xdkdewnw" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your name" required class="w-full p-3 border border-gray-300 rounded" />
+      <input type="email" name="email" placeholder="Your email" required class="w-full p-3 border border-gray-300 rounded" />
+      <textarea name="message" rows="5" placeholder="Your message" required class="w-full p-3 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded">Send Message</button>
+    </form>
+  </div>
 
-    <!-- Contact Content -->
-    <main class="max-w-3xl mx-auto px-4 py-8">
-      <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
-      <p class="mb-6 text-gray-600">Have a question, feedback, or partnership idea? Reach out to us below:</p>
-      <div class="bg-gray-100 p-6 rounded-xl shadow">
-        <p class="mb-2"><strong>Email:</strong> hello@devnestsolutions.com</p>
-        <p class="mb-2"><strong>LinkedIn:</strong> <a href="https://linkedin.com" class="text-blue-600 hover:underline" target="_blank">Connect with us</a></p>
-        <p><strong>Support:</strong> Expect replies within 24–48 hrs</p>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="fixed bottom-0 left-0 w-full bg-gray-100 py-3 border-t text-center text-sm text-gray-600">
-      <a href="/contact.html" class="mx-2 hover:underline">Contact</a> |
-      <a href="/privacy.html" class="mx-2 hover:underline">Privacy</a> |
-      <a href="/terms.html" class="mx-2 hover:underline">Terms</a> |
-      <a href="https://www.linkedin.com" class="mx-2 hover:underline" target="_blank">LinkedIn</a>
-    </footer>
-
-  </body>
+</body>
 </html>
-
