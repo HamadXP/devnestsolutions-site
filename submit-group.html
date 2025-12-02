@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your WhatsApp Group Link - Fast and Free</title>
+    
+    <!-- SEO: Canonical Tag for Submit Group Page -->
+    <link rel="canonical" href="https://devnestsolutions.site/submit-group">
+    
+    <!-- Favicon (Using an SVG icon base64) -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAB4sgkBAAAABGdBTUEAALGPC/xhBQAAACNJREFUWAntZmoEAAAEBQH9l9E1yG4Cg3W/tT13D7X93F0zYhN0/wG4D7dO/r4J2QAAAABJRU5ErkJggg==" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'><circle cx='12' cy='12' r='12' fill='%2325D366'/><path d='M17.519 6.411c-3.535-3.535-9.258-3.535-12.793 0s-3.535 9.258 0 12.793c.079.079.169.15.246.231l4-1.497 2.044 2.044c3.041-1.505 5.51-3.973 7.015-7.015l2.044-2.044-1.497-4c.082-.077.151-.167.23-.246z' fill='%23FFF'/></svg>">
+
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom CSS for WhatsApp-style background and main color */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9f9;
+            background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e0e0e0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zm1 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .whatsapp-green {
+            color: #25D366;
+        }
+        .whatsapp-bg-green {
+            background-color: #25D366;
+        }
+        .input-focus:focus {
+            border-color: #25D366 !important;
+            box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.5) !important;
+        }
+    </style>
+</head>
+<body class="text-gray-800 min-h-screen flex flex-col">
+
+    <!-- Header and Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl sm:text-3xl font-bold whatsapp-green">
+                WhatsApp Group Links
+            </a>
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold">
+                <a href="/contact-us" class="hover:text-green-600 transition">Contact Us</a>
+                <a href="/privacy-policy" class="hover:text-green-600 transition">Privacy Policy</a>
+                <a href="/about" class="hover:text-green-600 transition">About Us</a>
+                <a href="/whatsapp-group-list" class="hover:text-green-600 transition">WhatsApp Group List</a>
+                <a href="/submit-group" class="text-green-600 font-bold transition">Submit Group</a>
+                <a href="/" class="hover:text-green-600 transition">Latest WhatsApp Group Links</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-green-600">
+                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Navigation Drawer -->
+        <nav id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 py-2 px-4">
+            <div class="flex flex-col space-y-2 text-sm font-semibold">
+                <a href="/contact-us" class="hover:text-green-600 transition py-1 border-b border-gray-100">Contact Us</a>
+                <a href="/privacy-policy" class="hover:text-green-600 transition py-1 border-b border-gray-100">Privacy Policy</a>
+                <a href="/about" class="hover:text-green-600 transition py-1 border-b border-gray-100">About Us</a>
+                <a href="/whatsapp-group-list" class="hover:text-green-600 transition py-1 border-b border-gray-100">WhatsApp Group List</a>
+                <a href="/submit-group" class="text-green-600 font-bold py-1 border-b border-gray-100">Submit Group</a>
+                <a href="/" class="hover:text-green-600 transition py-1">Latest WhatsApp Group Links</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-xl mx-auto p-4 sm:p-6 lg:p-8 flex-grow">
+        <div class="bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 whatsapp-green text-center">
+                Submit Your Group Link
+            </h1>
+            <p class="text-center text-gray-600 mb-8">
+                Want to share your community? Submit your active WhatsApp Group or Channel invite link here for review. Once approved, it will be added to our directory!
+            </p>
+
+            <!-- Success/Error Messages -->
+            <div id="form-messages" class="mb-4 space-y-3">
+                <div id="success-message" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Submission Received!</strong>
+                    <span class="block sm:inline"> Thank you! Your group link is now under review and should appear within 24-48 hours.</span>
+                </div>
+                <div id="error-message" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Submission Failed.</strong>
+                    <span class="block sm:inline"> Please ensure all required fields are filled and the Group Link is a valid URL.</span>
+                </div>
+            </div>
+
+            <!-- Submission Form - Using FormSubmit endpoint -->
+            <form id="submission-form" 
+                  action="https://formsubmit.co/dr.mussadshahid@gmail.com" 
+                  method="POST" 
+                  class="space-y-6">
+                
+                <!-- Hidden fields required by FormSubmit -->
+                <input type="hidden" name="_subject" value="NEW WhatsApp Group Link Submission">
+                <input type="hidden" name="_template" value="box">
+                <!-- Redirect back to this URL on success -->
+                <input type="hidden" name="_next" value="https://devnestsolutions.site/submit-group?success=true">
+
+                <div>
+                    <label for="group-name" class="block text-sm font-medium text-gray-700 mb-1">Group or Channel Name</label>
+                    <input type="text" name="Group Name" id="group-name" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                           placeholder="e.g., PUBG Pro Players Squad">
+                </div>
+                
+                <div>
+                    <label for="group-link" class="block text-sm font-medium text-gray-700 mb-1">WhatsApp Group/Channel Invite Link</label>
+                    <input type="url" name="Group Link" id="group-link" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                           placeholder="https://chat.whatsapp.com/...">
+                    <p class="text-xs text-gray-500 mt-1">Must be the public invite link for immediate review.</p>
+                </div>
+                
+                <div>
+                    <label for="category" class="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                    <select name="Category" id="category" required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none input-focus transition duration-150 ease-in-out appearance-none bg-white">
+                        <option value="" disabled selected>Select the best matching category</option>
+                        <option value="PUBG WhatsApp Group">PUBG WhatsApp Group</option>
+                        <option value="Entertainment WhatsApp Group">Entertainment WhatsApp Group</option>
+                        <option value="Indian WhatsApp Group">Indian WhatsApp Group</option>
+                        <option value="USA WhatsApp Group">USA WhatsApp Group</option>
+                        <option value="Funny WhatsApp Group">Funny WhatsApp Group</option>
+                        <option value="Offers WhatsApp Group">Offers WhatsApp Group</option>
+                        <option value="News WhatsApp Group">News WhatsApp Group</option>
+                        <option value="Shayari WhatsApp Group">Shayari WhatsApp Group</option>
+                        <option value="Tik Tok WhatsApp Group">Tik Tok WhatsApp Group</option>
+                        <option value="Study WhatsApp Group">Study WhatsApp Group</option>
+                        <option value="Free Fire WhatsApp Group">Free Fire WhatsApp Group</option>
+                        <option value="Girls WhatsApp Group">Girls WhatsApp Group</option>
+                        <option value="Technology WhatsApp Group">Technology WhatsApp Group</option>
+                        <option value="Friendship WhatsApp Group">Friendship WhatsApp Group</option>
+                        <option value="Kerala WhatsApp Group">Kerala WhatsApp Group</option>
+                        <option value="Government Job WhatsApp Group">Government Job WhatsApp Group</option>
+                        <option value="Earn Money WhatsApp Group">Earn Money WhatsApp Group</option>
+                        <option value="Shopping WhatsApp Group">Shopping WhatsApp Group</option>
+                        <option value="Gaming WhatsApp Group">Gaming WhatsApp Group</option>
+                        <option value="Ludo King WhatsApp Group">Ludo King WhatsApp Group</option>
+                        <option value="Sports WhatsApp Group">Sports WhatsApp Group</option>
+                        <option value="Boys WhatsApp Group">Boys WhatsApp Group</option>
+                        <option value="Education WhatsApp Group">Education WhatsApp Group</option>
+                        <option value="YouTube WhatsApp Group">YouTube WhatsApp Group</option>
+                        <option value="Music WhatsApp Group">Music WhatsApp Group</option>
+                        <option value="Bollywood WhatsApp Group">Bollywood WhatsApp Group</option>
+                        <option value="Earning WhatsApp Group">Earning WhatsApp Group</option>
+                        <option value="Job WhatsApp Group">Job WhatsApp Group</option>
+                        <option value="Malayalam WhatsApp Group">Malayalam WhatsApp Group</option>
+                        <option value="Paytm WhatsApp Group">Paytm WhatsApp Group</option>
+                        <option value="Goa WhatsApp Group">Goa WhatsApp Group</option>
+                        <option value="Tamil WhatsApp Group">Tamil WhatsApp Group</option>
+                        <option value="Sub4Sub WhatsApp Group">Sub4Sub WhatsApp Group</option>
+                        <option value="International WhatsApp Group">International WhatsApp Group</option>
+                        <option value="Buy and sell WhatsApp Group">Buy and sell WhatsApp Group</option>
+                        <option value="Dating WhatsApp Group">Dating WhatsApp Group</option>
+                        <option value="Movies WhatsApp Group">Movies WhatsApp Group</option>
+                        <option value="Dubai WhatsApp Group">Dubai WhatsApp Group</option>
+                        <option value="UK WhatsApp Group">UK WhatsApp Group</option>
+                        <option value="Students WhatsApp Group">Students WhatsApp Group</option>
+                        <option value="Lawyers WhatsApp Group">Lawyers WhatsApp Group</option>
+                        <option value="Cars WhatsApp Group">Cars WhatsApp Group</option>
+                        <option value="Brazil WhatsApp Group">Brazil WhatsApp Group</option>
+                        <option value="Malaysia WhatsApp Group">Malaysia WhatsApp Group</option>
+                        <option value="Love and Romance WhatsApp Group">Love and Romance WhatsApp Group</option>
+                        <option value="Assignments WhatsApp Group">Assignments WhatsApp Group</option>
+                        <option value="Haryana WhatsApp Group">Haryana WhatsApp Group</option>
+                        <option value="Kannada WhatsApp Group">Kannada WhatsApp Group</option>
+                        <option value="University WhatsApp Group">University WhatsApp Group</option>
+                        <option value="Pakistani WhatsApp Group">Pakistani WhatsApp Group</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="description" class="block text-sm font-medium text-gray-700 mb-1">Short Description (Max 15 words)</label>
+                    <textarea name="Group Description" id="description" rows="3" required maxlength="100"
+                              class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                              placeholder="Briefly describe what your group is about."></textarea>
+                </div>
+                
+                <div class="border-t pt-4">
+                    <label for="submitter-email" class="block text-sm font-medium text-gray-700 mb-1">Your Contact Email (Required for updates)</label>
+                    <input type="email" name="Submitter Email" id="submitter-email" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                           placeholder="admin@yourgroup.com">
+                </div>
+
+                <button type="submit"
+                        class="w-full whatsapp-bg-green text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:bg-green-700 transition duration-200 uppercase tracking-wider">
+                    Submit Group for Review
+                </button>
+            </form>
+            
+            <p class="text-xs text-center text-gray-500 mt-6">
+                All submissions are manually reviewed to ensure quality and relevance before being added to the directory.
+            </p>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm">
+            <p class="mb-2">Copyright © 2025 · <span class="whatsapp-green font-bold">WhatsApp Group Link</span>. All Rights Reserved.</p>
+            <p class="text-xs">This website is not affiliated with WhatsApp. All the graphic materials displayed on this website may be copyrighted by their respective owners. No Violation is expected.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript for Functionality and Message Handling -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Mobile Menu Toggle ---
+            const button = document.getElementById('mobile-menu-button');
+            const menu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+
+            button.addEventListener('click', () => {
+                const isHidden = menu.classList.toggle('hidden');
+                
+                if (isHidden) {
+                    menuIcon.classList.remove('hidden');
+                    closeIcon.classList.add('hidden');
+                } else {
+                    menuIcon.classList.add('hidden');
+                    closeIcon.classList.remove('hidden');
+                }
+            });
+
+            // --- Form Submission Message Handling ---
+            const successMessage = document.getElementById('success-message');
+            const errorMessage = document.getElementById('error-message');
+            
+            // Check URL parameters for success/error messages from FormSubmit redirect
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.get('success') === 'true') {
+                successMessage.classList.remove('hidden');
+                // Clean URL parameters after display
+                history.replaceState(null, '', window.location.pathname);
+            } else if (urlParams.get('error') === 'true') {
+                errorMessage.classList.remove('hidden');
+                history.replaceState(null, '', window.location.pathname);
+            }
+        });
+    </script>
+
+</body>
+</html>

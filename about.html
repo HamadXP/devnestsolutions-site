@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Get in Touch with WhatsApp Group Links</title>
+    
+    <!-- SEO: Canonical Tag for Contact Us Page -->
+    <link rel="canonical" href="https://devnestsolutions.site/contact-us">
+    
+    <!-- Favicon (Using an SVG icon base64) -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAB4sgkBAAAABGdBTUEAALGPC/xhBQAAACNJREFUWAntZmoEAAAEBQH9l9E1yG4Cg3W/tT13D7X93F0zYhN0/wG4D7dO/r4J2QAAAABJRU5ErkJggg==" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'><circle cx='12' cy='12' r='12' fill='%2325D366'/><path d='M17.519 6.411c-3.535-3.535-9.258-3.535-12.793 0s-3.535 9.258 0 12.793c.079.079.169.15.246.231l4-1.497 2.044 2.044c3.041-1.505 5.51-3.973 7.015-7.015l2.044-2.044-1.497-4c.082-.077.151-.167.23-.246z' fill='%23FFF'/></svg>">
+
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom CSS for WhatsApp-style background and main color */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9f9;
+            background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e0e0e0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zm1 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .whatsapp-green {
+            color: #25D366;
+        }
+        .whatsapp-bg-green {
+            background-color: #25D366;
+        }
+        .input-focus:focus {
+            border-color: #25D366 !important;
+            box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.5) !important;
+        }
+    </style>
+</head>
+<body class="text-gray-800 min-h-screen flex flex-col">
+
+    <!-- Header and Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl sm:text-3xl font-bold whatsapp-green">
+                WhatsApp Group Links
+            </a>
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold">
+                <a href="/contact-us" class="text-green-600 font-bold transition">Contact Us</a>
+                <a href="/privacy-policy" class="hover:text-green-600 transition">Privacy Policy</a>
+                <a href="/about" class="hover:text-green-600 transition">About Us</a>
+                <a href="/whatsapp-group-list" class="hover:text-green-600 transition">WhatsApp Group List</a>
+                <a href="/submit-group" class="hover:text-green-600 transition font-bold">Submit Group</a>
+                <a href="/" class="hover:text-green-600 transition">Latest WhatsApp Group Links</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-green-600">
+                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Navigation Drawer -->
+        <nav id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 py-2 px-4">
+            <div class="flex flex-col space-y-2 text-sm font-semibold">
+                <a href="/contact-us" class="text-green-600 font-bold py-1 border-b border-gray-100">Contact Us</a>
+                <a href="/privacy-policy" class="hover:text-green-600 transition py-1 border-b border-gray-100">Privacy Policy</a>
+                <a href="/about" class="hover:text-green-600 transition py-1 border-b border-gray-100">About Us</a>
+                <a href="/whatsapp-group-list" class="hover:text-green-600 transition py-1 border-b border-gray-100">WhatsApp Group List</a>
+                <a href="/submit-group" class="hover:text-green-600 transition font-bold py-1 border-b border-gray-100">Submit Group</a>
+                <a href="/" class="hover:text-green-600 transition py-1">Latest WhatsApp Group Links</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-xl mx-auto p-4 sm:p-6 lg:p-8 flex-grow">
+        <div class="bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 whatsapp-green text-center">
+                Get in Touch
+            </h1>
+            <p class="text-center text-gray-600 mb-8">
+                We are happy to hear from you! Use the form below to contact us about submissions, feedback, or general inquiries related to **WhatsApp Group Links** and **USA WhatsApp Group Links**.
+            </p>
+
+            <!-- Success/Error Messages -->
+            <div id="form-messages" class="mb-4 space-y-3">
+                <div id="success-message" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Message Sent!</strong>
+                    <span class="block sm:inline"> Thank you for reaching out. We will get back to you as soon as possible.</span>
+                </div>
+                <div id="error-message" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Submission Failed.</strong>
+                    <span class="block sm:inline"> An error occurred or fields are missing. Please ensure all required fields are filled and try again.</span>
+                </div>
+            </div>
+
+            <!-- Contact Form - Using FormSubmit endpoint for direct submission -->
+            <form id="contact-form" 
+                  action="https://formsubmit.co/dr.mussadshahid@gmail.com" 
+                  method="POST" 
+                  class="space-y-6">
+                
+                <!-- Hidden fields required by FormSubmit -->
+                <input type="hidden" name="_subject" value="New Contact Form Submission from WhatsApp Links Site">
+                <input type="hidden" name="_template" value="box">
+                <!-- Redirect back to this URL on success (FormSubmit handles this by appending ?success=true) -->
+                <input type="hidden" name="_next" value="https://devnestsolutions.site/contact-us?success=true">
+
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                    <input type="text" name="name" id="name" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                           placeholder="John Doe">
+                </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <!-- IMPORTANT: The 'email' field name is required by FormSubmit for reply-to -->
+                    <input type="email" name="email" id="email" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                           placeholder="you@example.com">
+                </div>
+                
+                <div>
+                    <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                    <select name="subject" id="subject" required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none input-focus transition duration-150 ease-in-out appearance-none bg-white">
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value="Group Link Submission/Update">Group Link Submission/Update</option>
+                        <option value="General Feedback/Suggestion">General Feedback/Suggestion</option>
+                        <option value="Legal/Privacy Inquiry">Legal/Privacy Inquiry</option>
+                        <option value="Other Inquiry">Other Inquiry</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                    <textarea name="message" id="message" rows="5" required
+                              class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none input-focus transition duration-150 ease-in-out"
+                              placeholder="Type your detailed message here..."></textarea>
+                </div>
+                
+                <button type="submit"
+                        class="w-full whatsapp-bg-green text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:bg-green-700 transition duration-200 uppercase tracking-wider">
+                    Send Message
+                </button>
+            </form>
+            
+            <!-- Direct Contact Info Placeholder -->
+            <div id="direct-contact" class="mt-8 pt-6 border-t border-gray-100 text-center">
+                <p class="text-sm text-gray-500">Alternatively, you can reach us directly at:</p>
+                <p class="text-lg font-medium whatsapp-green mt-1">dr.mussadshahid@gmail.com</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm">
+            <p class="mb-2">Copyright © 2025 · <span class="whatsapp-green font-bold">WhatsApp Group Link</span>. All Rights Reserved.</p>
+            <p class="text-xs">This website is not affiliated with WhatsApp. All the graphic materials displayed on this website may be copyrighted by their respective owners. No Violation is expected.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript for Functionality and Message Handling -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Mobile Menu Toggle ---
+            const button = document.getElementById('mobile-menu-button');
+            const menu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+
+            button.addEventListener('click', () => {
+                const isHidden = menu.classList.toggle('hidden');
+                
+                if (isHidden) {
+                    menuIcon.classList.remove('hidden');
+                    closeIcon.classList.add('hidden');
+                } else {
+                    menuIcon.classList.add('hidden');
+                    closeIcon.classList.remove('hidden');
+                }
+            });
+
+            // --- Form Submission Message Handling ---
+            const successMessage = document.getElementById('success-message');
+            const errorMessage = document.getElementById('error-message');
+            
+            // Check URL parameters for success/error messages from FormSubmit redirect
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.get('success') === 'true') {
+                successMessage.classList.remove('hidden');
+                // Optional: Clean URL parameters after display
+                history.replaceState(null, '', window.location.pathname);
+            } else if (urlParams.get('error') === 'true') {
+                errorMessage.classList.remove('hidden');
+                history.replaceState(null, '', window.location.pathname);
+            }
+        });
+    </script>
+
+</body>
+</html>
