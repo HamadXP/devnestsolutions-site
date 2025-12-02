@@ -11,13 +11,6 @@
 
   <!-- Core Pages -->
   <url>
-    <loc>https://devnestsolutions.site/index</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
     <loc>https://devnestsolutions.site/about</loc>
     <lastmod>2025-12-03</lastmod>
     <changefreq>weekly</changefreq>
